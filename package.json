@@ -1,0 +1,24 @@
+{
+  "name": "haleighstackpole",
+  "version": "1.0.0",
+  "description": "Blog - Personal Trainer Site",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Justinstone2001/haleighstackpole.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Justinstone2001/haleighstackpole/issues"
+  },
+  "homepage": "https://github.com/Justinstone2001/haleighstackpole#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.2",
+    "express": "^4.18.2"
+  }
+}

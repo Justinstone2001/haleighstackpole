@@ -1,0 +1,379 @@
+/* header */
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+h2,
+h3,
+a {
+	color: #000000;
+}
+
+a {
+	text-decoration: none;
+}
+
+.logo {
+	  margin: 0;
+	  font-size: 45px;
+    font-family: Manison;
+    font-weight: 100;
+}
+
+.main-nav {
+	  margin-top: 5px;
+    font-family: Tenor Sans;
+    font-size: 18px;
+    margin-right: 40px;
+}
+
+.logo a,
+.main-nav a {
+	padding: 10px 15px;
+	text-transform: uppercase;
+  text-align: center;
+	display: block;
+}
+
+.main-nav a {
+	color: #000000;
+	font-size: .99em;
+  text-align: center;
+}
+
+.main-nav li:hover {
+	  color: #817357;
+    cursor: pointer;
+    font-weight: 550;
+}
+
+#bar {
+    background-color: black;
+}
+
+.header {
+	padding-top: .5em;
+	padding-bottom: .5em;
+	background-color: #e7dac5;
+    
+}
+
+  .instapic {
+    height: 333px;
+    width: 333px;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: center;  
+  }
+  .instapic:hover {
+    cursor: pointer;
+    opacity: .80;
+  }
+  .picContainer {
+    text-align: center;
+  }
+  /* Add a color to the active/current link */
+  
+  .haleighlogo {
+    height: 200px;
+    width: 200px;
+    margin-bottom: 10px;
+  }
+
+  /* #handle {
+    font-family: Manison;
+    font-size: 20px;
+    text-decoration: none;
+    color:#817357;
+    margin-top: 100px;
+  }
+
+  #handle:hover {
+    opacity: .6;
+  } */
+
+  .instacollage {
+    height: 200px;
+    width:400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .collageDiv {
+    text-align: center;
+  }
+
+  #line {
+    position: relative;
+    margin-top: 20px;
+  }
+
+  .aboutPic {
+    height: 430px;
+    width: 300px;
+    box-shadow: 
+    0 1px 1px rgba(0,0,0,0.11), 
+    0 2px 2px rgba(0,0,0,0.11), 
+    0 4px 4px rgba(0,0,0,0.11), 
+    0 8px 8px rgba(0,0,0,0.11), 
+    0 16px 16px rgba(0,0,0,0.11), 
+    0 32px 32px rgba(0,0,0,0.11);
+  }
+
+  #aboutContainer {
+    text-align: center;
+    border-style: solid;
+    border-color: #fcfcfc;
+  }
+
+  #aboutBody {
+    font-family: Manison;
+    text-align: center;
+    margin: auto;
+    font-size: 20px;
+  }
+
+.aboutTxt {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-family: Manison;
+  font-size: 50px;
+  font-weight: 100;
+}
+
+.aboutTxt:before,
+.aboutTxt:after {
+  content: "";
+  flex: 1 1;
+  border-bottom: 4px solid #e7dac5;
+  margin: auto;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+  #cardTitle {
+    font-size: 30px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    font-weight: 900;
+  }
+
+  #cardTxt {
+    font-size: 25px;
+  }
+  
+  .footer-dark {
+    color:#000000;
+    background-color:#e7dac5;
+    margin-bottom: 0px;
+  }
+  
+  .footer-dark .item.social > a {
+    font-size:35px;
+    width:50px;
+    height:50px;
+    line-height:50px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    box-shadow:0 0 0 1px rgba(0, 0, 0, 0.4);
+    margin:0 15px;
+    color:#000000;
+    opacity:0.75;
+  }
+  
+  .footer-dark .item.social > a:hover {
+    opacity:0.5;
+  }
+  
+  .footer-dark .copyright {
+    text-align:center;
+    padding-top:24px;
+    opacity:0.3;
+    font-size:13px;
+    margin-bottom: 0px;
+    color:#000000
+  }
+  
+#footer {
+  margin-top: 50px;
+}
+
+.logoHaleigh {
+  height:150px;
+  width:150px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#logoContainer {
+  text-align: center;
+}
+  
+#socialContainer {
+  display: inline-block;
+  text-align: center;
+}
+
+.instagram-media {
+  height: 330px;
+}
+
+#collageDiv {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+#trainerDiv{
+  margin: 20px;
+
+}
+
+#trainerHstack {
+  border-style: solid;
+  border-color: #ffffff;
+}
+
+#meetTrainer {
+  font-family: Manison;
+  font-size: 55px;
+  line-height: 1.8;
+  text-align: center;
+  font-weight: 900;
+}
+
+#trainingPic{
+  width: 80%;
+  margin: auto;
+}
+
+#aboutTrainer {
+  font-size: 25px;
+  font-family: Manison;
+  text-align: center;
+  margin: 20px;
+}
+
+.lineBreak {
+  color:#000000;
+  size: 20px;
+  margin: 50px;
+}
+
+#accomplishments {
+  text-align: center;
+  border-style: solid;
+  border-color:#ffffff;
+}
+
+.accHeader {
+  font-size: 25px;
+}
+
+.accTxt {
+  font-family: Manison;
+  margin: auto;
+  margin-top: 20px;
+}
+
+#accPic {
+  width: 40%;
+}
+
+#accHeader {
+  font-family: Manison;
+  font-weight: 700;
+  text-align: center;
+  margin: 10px;
+}
+
+#txt {
+  font-family: Manison;
+  text-align: center;
+  margin: 10px;
+  font-size: 20px;
+}
+
+#accCard {
+  border-style: solid;
+  border-color: #ffffff;
+}
+
+#sessionDiv {
+  text-align: center;
+  border-style: solid;
+  border-color: #ffffff;
+  margin: 10px;
+  
+}
+#sessionTxt {
+  font-family: Manison;
+  margin: 20px;
+}
+.sessionHeader {
+  font-family: Manison;
+}
+#sessionRight {
+  border-left: solid;
+  margin: 10px;
+}
+#sessionRightTxt {
+  margin: 10px;
+}
+/* ================================= 
+  Media Queries
+==================================== */
+
+@media only screen and (min-width: 960px) {
+  /* styles for browsers larger than 960px; */
+}
+@media only screen and (min-width: 1440px) {
+  /* styles for browsers larger than 1440px; */
+}
+@media only screen and (min-width: 2000px) {
+  /* for sumo sized (mac) screens */
+}
+@media only screen and (max-device-width: 480px) {
+ /* styles for mobile browsers smaller than 480px; (iPhone) */
+}
+@media only screen and (device-width: 768px) {
+ /* default iPad screens */
+}
+/* different techniques for iPad screening */
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+/* For portrait layouts only */
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+/* For landscape layouts only */
+}
+
+@media (min-width: 769px) {
+	.header,
+	.main-nav {
+		display: flex;
+	}
+	.header {
+		flex-direction: column;
+		align-items: center;  
+    }
+    .logo {
+        font-size: 55px;
+    }
+}
+
+@media (min-width: 1025px) {
+	.header {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+    .logo {
+        font-size: 45px;
+    }	
+
+}
