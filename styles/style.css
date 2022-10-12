@@ -307,8 +307,8 @@ a {
 #sessionDiv {
   text-align: center;
   border-style: solid;
-  border-color: #ffffff;
-  margin: 10px;
+  border-color:#ffffff;
+  margin-left: 20px;
   
 }
 #sessionTxt {
@@ -320,10 +320,18 @@ a {
 }
 #sessionRight {
   border-left: solid;
+  border-color:#e7dac5;
+  border-width: 4.5px;
   margin: 10px;
 }
 #sessionRightTxt {
   margin: 10px;
+}
+
+#signUp{
+  text-align: center;
+  margin: 20px;
+  font-family: Manison;
 }
 /* ================================= 
   Media Queries
