@@ -287,6 +287,7 @@ a {
 }
 
 #accPic {
+  margin: auto;
   width: 40%;
 }
 
@@ -308,13 +309,14 @@ a {
   border-style: solid;
   border-color: #ffffff;
 }
-
+.sessionTxt {
+  margin: auto;
+}
 #sessionDiv {
   text-align: center;
   border-style: solid;
   border-color:#ffffff;
   margin-left: 20px;
-  
 }
 
 .sessionHeader {
@@ -324,21 +326,18 @@ a {
   border-left: solid;
   border-color:#e7dac5;
   border-width: 4.5px;
-  margin: 10px;
 }
-#sessionRightTxt {
-  margin: 10px;
-}
+
 
 #signUpDiv {
   text-align: center;
-  margin: 50px;
+  margin: auto;
 }
 #signUp {
   text-decoration: none;
   font-family: Manison;
   font-size: 30px;
-  color: #000000;
+  color:#060606
 }
 #signUp:hover {
   color:#817357;
@@ -362,9 +361,11 @@ a {
   /* for sumo sized (mac) screens */
 }
 @media only screen and (max-device-width: 480px) {
+  
  /* styles for mobile browsers smaller than 480px; (iPhone) */
 }
 @media only screen and (device-width: 768px) {
+
  /* default iPad screens */
 }
 /* different techniques for iPad screening */
@@ -387,6 +388,21 @@ a {
     }
     .logo {
         font-size: 55px;
+    }
+    #accPic {
+      border-style: solid;
+      border-color: black;
+      width: 30%;
+    }
+    #sessionRightTxt {
+      margin: 10px;
+    }
+    #sessionRight {
+      margin-left: 10px;
+    }
+    #sessionDiv {
+      margin-right: 100px;
+      
     }
 }
 

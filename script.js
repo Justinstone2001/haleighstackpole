@@ -1,10 +1,10 @@
-var state = 'contact';
+var state = 'training';
 
 var homeEl = document.querySelector('#home');
 var aboutEl = document.querySelector('#about');
 var blogEl = document.querySelector('#blog');
 var shopEl = document.querySelector('#shop');
-var contactEl = document.querySelector('#contact');
+var trainingEl = document.querySelector('#training');
 var headerEl = document.querySelector('#headerSect');
 var footerEl = document.querySelector('#footer');
 
@@ -12,7 +12,7 @@ var homeBtnEl = document.querySelector('#homeBtn');
 var aboutBtnEl = document.querySelector('#aboutBtn');
 var blogBtnEl = document.querySelector('#blogBtn');
 var shopBtnEl = document.querySelector('#shopBtn');
-var contactBtnEl = document.querySelector('#contactBtn');
+var trainingBtnEl = document.querySelector('#trainingBtn');
 
 function displayPages() {
     if (state === 'home') {
@@ -22,7 +22,7 @@ function displayPages() {
         aboutEl.style.display = 'none';
         blogEl.style.display = 'none';
         shopEl.style.display = 'none';
-        contactEl.style.display = 'none';
+        trainingEl.style.display = 'none';
     }
     if (state === 'about') {
         headerEl.style.display = 'block';
@@ -31,7 +31,7 @@ function displayPages() {
         aboutEl.style.display = 'block';
         blogEl.style.display = 'none';
         shopEl.style.display = 'none';
-        contactEl.style.display = 'none';
+        trainingEl.style.display = 'none';
 
     }
     if (state === 'blog') {
@@ -41,7 +41,7 @@ function displayPages() {
         aboutEl.style.display = 'none';
         blogEl.style.display = 'block';
         shopEl.style.display = 'none';
-        contactEl.style.display = 'none';
+        trainingEl.style.display = 'none';
 
     }
     if (state === 'shop') {
@@ -51,17 +51,17 @@ function displayPages() {
         aboutEl.style.display = 'none';
         blogEl.style.display = 'none';
         shopEl.style.display = 'block';
-        contactEl.style.display = 'none';
+        trainingEl.style.display = 'none';
 
     }
-    if (state === 'contact') {
+    if (state === 'training') {
         headerEl.style.display = 'block';
         homeEl.style.display = 'none';
         footerEl.style.display = 'block';
         aboutEl.style.display = 'none';
         blogEl.style.display = 'none';
         shopEl.style.display = 'none';
-        contactEl.style.display = 'block';
+        trainingEl.style.display = 'block';
     }
 }
 
@@ -85,8 +85,8 @@ shopBtnEl.addEventListener("click", function () {
     displayPages();
 });
 
-contactBtnEl.addEventListener("click", function () {
-    state = 'contact';
+trainingBtnEl.addEventListener("click", function () {
+    state = 'training';
     displayPages();
 });
 
