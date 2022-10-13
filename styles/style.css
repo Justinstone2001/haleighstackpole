@@ -316,7 +316,7 @@ a {
   text-align: center;
   border-style: solid;
   border-color:#ffffff;
-  margin-left: 20px;
+  /* margin-left: 20px; */
 }
 
 .sessionHeader {
@@ -326,8 +326,8 @@ a {
   border-left: solid;
   border-color:#e7dac5;
   border-width: 4.5px;
+  /* margin-left: 3px; */
 }
-
 
 #signUpDiv {
   text-align: center;
@@ -390,8 +390,6 @@ a {
         font-size: 55px;
     }
     #accPic {
-      border-style: solid;
-      border-color: black;
       width: 30%;
     }
     #sessionRightTxt {
@@ -402,7 +400,6 @@ a {
     }
     #sessionDiv {
       margin-right: 100px;
-      
     }
 }
 

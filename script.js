@@ -1,4 +1,4 @@
-var state = 'training';
+var state = 'home';
 
 var homeEl = document.querySelector('#home');
 var aboutEl = document.querySelector('#about');
