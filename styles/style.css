@@ -332,6 +332,7 @@ a {
 #signUpDiv {
   text-align: center;
   margin: auto;
+  margin-top: 30px;
 }
 #signUp {
   text-decoration: none;
