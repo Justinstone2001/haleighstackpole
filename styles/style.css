@@ -83,18 +83,6 @@ a {
     margin-bottom: 10px;
   }
 
-  /* #handle {
-    font-family: Manison;
-    font-size: 20px;
-    text-decoration: none;
-    color:#817357;
-    margin-top: 100px;
-  }
-
-  #handle:hover {
-    opacity: .6;
-  } */
-
   .instacollage {
     height: 200px;
     width:400px;
@@ -251,6 +239,13 @@ a {
   width: 80%;
   margin: auto;
   border-radius: 0px;
+  box-shadow: 
+    0 1px 1px rgba(0,0,0,0.11), 
+    0 2px 2px rgba(0,0,0,0.11), 
+    0 4px 4px rgba(0,0,0,0.11), 
+    0 8px 8px rgba(0,0,0,0.11), 
+    0 16px 16px rgba(0,0,0,0.11), 
+    0 32px 32px rgba(0,0,0,0.11);
 }
 
 #aboutTrainer {
@@ -258,6 +253,7 @@ a {
   font-family: Manison;
   text-align: center;
   margin: 20px;
+  font-weight: 600;
 }
 
 .lineBreak {
@@ -289,6 +285,13 @@ a {
 #accPic {
   margin: auto;
   width: 40%;
+  box-shadow: 
+    0 1px 1px rgba(0,0,0,0.11), 
+    0 2px 2px rgba(0,0,0,0.11), 
+    0 4px 4px rgba(0,0,0,0.11), 
+    0 8px 8px rgba(0,0,0,0.11), 
+    0 16px 16px rgba(0,0,0,0.11), 
+    0 32px 32px rgba(0,0,0,0.11);
 }
 
 #accHeader {
@@ -301,7 +304,7 @@ a {
 #txt {
   font-family: Manison;
   text-align: center;
-  font-size: 20px;
+  font-size: 25px;
   margin: 15px;
 }
 
@@ -348,6 +351,7 @@ a {
 #professionalDiv {
   margin-bottom: 15px; 
 }
+
 /* ================================= 
   Media Queries
 ==================================== */
