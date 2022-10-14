@@ -269,6 +269,7 @@ a {
   text-align: center;
   border-style: solid;
   border-color:#ffffff;
+  margin: 5px;
 }
 
 .accHeader {
@@ -279,7 +280,6 @@ a {
   font-family: Manison;
   margin: auto;
   margin-top: 20px;
-  margin-right: 15px;
 }
 
 #accPic {
