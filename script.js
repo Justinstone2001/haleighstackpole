@@ -1,4 +1,4 @@
-var state = 'shop';
+var state = 'home';
 
 var homeEl = document.querySelector('#home');
 var aboutEl = document.querySelector('#about');
@@ -75,15 +75,15 @@ aboutBtnEl.addEventListener("click", function () {
     displayPages();
 });
 
-blogBtnEl.addEventListener("click", function () {
-    state = 'blog';
-    displayPages();
-});
+// blogBtnEl.addEventListener("click", function () {
+//     state = 'blog';
+//     displayPages();
+// });
 
-shopBtnEl.addEventListener("click", function () {
-    state = 'shop';
-    displayPages();
-});
+// shopBtnEl.addEventListener("click", function () {
+//     state = 'shop';
+//     displayPages();
+// });
 
 trainingBtnEl.addEventListener("click", function () {
     state = 'training';
