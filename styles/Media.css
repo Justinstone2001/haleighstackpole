@@ -1,0 +1,37 @@
+
+@media (min-width: 769px) {
+	.header,
+	.main-nav {
+		display: flex;
+	}
+	.header {
+		flex-direction: column;
+		align-items: center;  
+    }
+    .logo {
+        font-size: 55px;
+    }
+    #accPic {
+      width: 30%;
+    }
+    #sessionRightTxt {
+      margin: 10px;
+    }
+    #sessionRight {
+      margin-left: 10px;
+    }
+    #sessionDiv {
+      margin-right: 100px;
+    }
+}
+
+@media (min-width: 1025px) {
+	.header {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+    .logo {
+        font-size: 45px;
+    }	
+
+}

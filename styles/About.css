@@ -1,0 +1,56 @@
+.aboutPic {
+    height: 430px;
+    width: 300px;
+    box-shadow: 
+    0 1px 1px rgba(0,0,0,0.11), 
+    0 2px 2px rgba(0,0,0,0.11), 
+    0 4px 4px rgba(0,0,0,0.11), 
+    0 8px 8px rgba(0,0,0,0.11), 
+    0 16px 16px rgba(0,0,0,0.11), 
+    0 32px 32px rgba(0,0,0,0.11);
+  }
+
+  #aboutContainer {
+    text-align: center;
+    border-style: solid;
+    border-color: #fcfcfc;
+  }
+
+  #aboutBody {
+    font-family: Manison;
+    text-align: center;
+    margin: auto;
+    font-size: 20px;
+  }
+
+.aboutTxt {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-family: Manison;
+  font-size: 50px;
+  font-weight: 100;
+}
+
+.aboutTxt:before,
+.aboutTxt:after {
+  content: "";
+  flex: 1 1;
+  border-bottom: 4px solid #e7dac5;
+  margin: auto;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+  #cardTitle {
+    font-size: 30px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    font-weight: 900;
+  }
+
+  #cardTxt {
+    font-size: 25px;
+  }
+  

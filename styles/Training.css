@@ -1,0 +1,135 @@
+
+#trainerDiv{
+    margin: 20px;
+  
+  }
+  
+  #trainerHstack {
+    border-style: solid;
+    border-color: #ffffff;
+  }
+  
+  #meetTrainer {
+    font-family: Manison;
+    font-size: 55px;
+    line-height: 1.8;
+    text-align: center;
+    font-weight: 900;
+  }
+  
+  #trainingPic{
+    width: 80%;
+    margin: auto;
+    border-radius: 0px;
+    box-shadow: 
+      0 1px 1px rgba(0,0,0,0.11), 
+      0 2px 2px rgba(0,0,0,0.11), 
+      0 4px 4px rgba(0,0,0,0.11), 
+      0 8px 8px rgba(0,0,0,0.11), 
+      0 16px 16px rgba(0,0,0,0.11), 
+      0 32px 32px rgba(0,0,0,0.11);
+  }
+  
+  #aboutTrainer {
+    font-size: 25px;
+    font-family: Manison;
+    text-align: center;
+    margin: 20px;
+    font-weight: 600;
+  }
+  
+  .lineBreak {
+    border-style: solid;
+    border-color:#e7dac5;
+    border-width: 2px;
+    opacity: .9;
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+  
+  #accomplishments {
+    text-align: center;
+    border-style: solid;
+    border-color:#ffffff;
+    margin: 5px;
+  }
+  
+  .accHeader {
+    font-size: 25px;
+  }
+  
+  .accTxt {
+    font-family: Manison;
+    margin: auto;
+    margin-top: 20px;
+  }
+  
+  #accPic {
+    margin: auto;
+    width: 40%;
+    box-shadow: 
+      0 1px 1px rgba(0,0,0,0.11), 
+      0 2px 2px rgba(0,0,0,0.11), 
+      0 4px 4px rgba(0,0,0,0.11), 
+      0 8px 8px rgba(0,0,0,0.11), 
+      0 16px 16px rgba(0,0,0,0.11), 
+      0 32px 32px rgba(0,0,0,0.11);
+  }
+  
+  #accHeader {
+    font-family: Manison;
+    font-weight: 700;
+    text-align: center;
+    margin: 10px;
+  }
+  
+  #txt {
+    font-family: Manison;
+    text-align: center;
+    font-size: 25px;
+    margin: 15px;
+  }
+  
+  #accCard {
+    border-style: solid;
+    border-color: #ffffff;
+  }
+  .sessionTxt {
+    margin: auto;
+  }
+  #sessionDiv {
+    text-align: center;
+    border-style: solid;
+    border-color:#ffffff;
+    /* margin-left: 20px; */
+  }
+  
+  .sessionHeader {
+    font-family: Manison;
+  }
+  #sessionRight {
+    border-left: solid;
+    border-color:#e7dac5;
+    border-width: 4.5px;
+    /* margin-left: 3px; */
+  }
+  
+  #signUpDiv {
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+  }
+  #signUp {
+    text-decoration: none;
+    font-family: Manison;
+    font-size: 30px;
+    color:#060606
+  }
+  #signUp:hover {
+    color:#817357;
+    opacity: .7;
+  }
+  
+  #professionalDiv {
+    margin-bottom: 15px; 
+  }

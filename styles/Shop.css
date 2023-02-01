@@ -1,0 +1,15 @@
+#productContainer {
+    text-align: center;
+   }
+   #product{
+     height: 300px;
+     width: 300px;
+     display: inline-block;
+     text-align: center;
+     margin: 40px;
+   }
+   
+   .productImg {
+     width: 40%;
+     margin: auto;
+   }

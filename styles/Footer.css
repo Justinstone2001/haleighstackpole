@@ -1,0 +1,53 @@
+
+.footer-dark {
+    color:#000000;
+    background-color:#e7dac5;
+    margin-bottom: 0px;
+  }
+  
+  .footer-dark .item.social > a {
+    font-size:35px;
+    width:50px;
+    height:50px;
+    line-height:50px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    box-shadow:0 0 0 1px rgba(0, 0, 0, 0.4);
+    margin:0 25px;
+    color:#000000;
+    opacity:0.75;
+  }
+  
+  .footer-dark .item.social > a:hover {
+    opacity:0.5;
+  }
+  
+  .footer-dark .copyright {
+    text-align:center;
+    padding-top:24px;
+    opacity:0.3;
+    font-size:13px;
+    margin-bottom: 0px;
+    color:#000000
+  }
+  
+#footer {
+  margin-top: 50px;
+}
+
+.logoHaleigh {
+  height:150px;
+  width:150px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#logoContainer {
+  text-align: center;
+}
+  
+#socialContainer {
+  display: inline-block;
+  text-align: center;
+}
